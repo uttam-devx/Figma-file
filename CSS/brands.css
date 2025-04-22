@@ -1,0 +1,18 @@
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 28px;
+    padding: 35px 51.5px;
+    gap: 60px 88px;
+  }
+  .brands img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+  @media screen and (min-width: 768px) {
+    .brands img {
+      width: 200px;
+    }
+  }
